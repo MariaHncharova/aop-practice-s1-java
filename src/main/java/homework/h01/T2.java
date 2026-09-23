@@ -1,5 +1,11 @@
 package homework.h01;
 
-// advanced
-// https://leetcode.com/problems/rectangle-area/
-public class T2 {}
+public class T2 {
+    public int countOdds(int low, int high) {
+        int count = high - low + 1;
+        if (low % 2 != 0 && high % 2 != 0) {
+            return count / 2 + 1;
+        }
+        return count / 2;
+    }
+}
