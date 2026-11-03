@@ -5,15 +5,15 @@ import java.util.Arrays;
 // base
 // https://leetcode.com/problems/valid-anagram/
 public class T1 {
-    public boolean isAnagram(String s, String t) {
-        if (s.length() != t.length()) return false;
+  public boolean isAnagram(String s, String t) {
+    if (s.length() != t.length()) return false;
 
-        char[] sChars = s.toCharArray();
-        char[] tChars = t.toCharArray();
+    char[] sChars = s.toCharArray();
+    char[] tChars = t.toCharArray();
 
-        Arrays.sort(sChars);
-        Arrays.sort(tChars);
+    Arrays.sort(sChars);
+    Arrays.sort(tChars);
 
-        return Arrays.equals(sChars, tChars);
-    }
+    return Arrays.equals(sChars, tChars);
+  }
 }
