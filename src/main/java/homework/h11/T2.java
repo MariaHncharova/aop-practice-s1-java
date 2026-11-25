@@ -1,4 +1,4 @@
-package homework;
+package homework.h11;
 
 // https://leetcode.com/problems/majority-element/
 public class T2 {

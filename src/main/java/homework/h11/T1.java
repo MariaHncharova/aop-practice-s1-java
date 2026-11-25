@@ -1,4 +1,4 @@
-package homework;
+package homework.h11;
 
 // https://leetcode.com/problems/missing-number/
 public class T1 {
